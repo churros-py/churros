@@ -2,7 +2,7 @@ export abstract class Entity<T> {
   public readonly id: string;
   protected domainEvents: any[] = [];
 
-  constructor(props: T, id?: string) {
+  constructor(props: Partial<T>, id?: string) {
     this.id = id || crypto.randomUUID();
     Object.assign(this, props);
   }
