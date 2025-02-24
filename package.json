@@ -1,6 +1,6 @@
 {
   "name": "@churro/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Clean Architecture & DDD Framework using Fastify + TypeScript",
   "main": "dist/index.js",
   "repository": {
